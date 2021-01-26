@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #e3feff;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+.btn {
+  background: #66bfbf;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 10px;
+  border: solid #66bfbf 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  width: auto;
+  height: auto;
+  background-color: #e3feff;
+  overflow: auto;
+}
+
+.middle-container .profile {
+  width: auto;
+  height: auto;
+  background-color: aliceblue;
+}
+
+.middle-container .skills {
+  width: auto;
+  height: auto;
+  background-color: #e3feff;
+}
+
+.bottom-container {
+  width: auto;
+  height: auto;
+  background-color: #66bfbf;
+  margin-bottom: -15px;
+}
+
+.profile-text {
+  width: 35%;
+  margin: 0 auto 0 auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 540px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 540px;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.my-picture {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.skill-img0 {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+
+.skill-img1 {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 25%;
+  float: right;
+  padding-left: 10px;
+}
+
+.skill-img2 {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+
+.skill-img3 {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 25%;
+  float: right;
+  overflow: auto;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.skill-img4 {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+
+.skill-row {
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.profile {
+  background-color: aliceblue;
+}
